@@ -5,7 +5,7 @@ const TOKEN = '593469041:AAEKZX6deG4JZIcXyATXrd29g9Opaioza40'
 const bot = new TelegramBot (TOKEN, {polling: true})
 
 bot.onText(/\/start/, msg => {
-	const text = 'Hi,red', $(msg.from.first_name)\nПривет
+	const text = 'Hi,red'
 	
   bot.sendMessage(msg.chat.id, text, {
 	  reply_markup: {
