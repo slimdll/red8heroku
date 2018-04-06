@@ -6,11 +6,4 @@ const bot = new TelegramBot (TOKEN, {polling: true})
 
 bot.onText(/\/start/, msg => {
 	const text = 'Hi,red', $(msg.from.first_name)\nПривет
-	
-  bot.sendMessage(msg.chat.id, text, {
-	  reply_markup: {
-		  keyboard: [
-		    ['ХАРЬКОВ', 'ПОМОЩЬ']
-		  ]
-	  }
-})
+}
